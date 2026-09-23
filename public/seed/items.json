@@ -1,0 +1,162 @@
+[
+  {
+    "id": "tote-01",
+    "title": "Structured Tote",
+    "price": 240,
+    "image": "tote.svg",
+    "category": "Bags",
+    "condition": "Pre-owned",
+    "source": "Resale site",
+    "details": "Grained leather",
+    "href": "#",
+    "tags": [
+      "leather",
+      "black",
+      "everyday"
+    ]
+  },
+  {
+    "id": "watch-01",
+    "title": "Field Watch",
+    "price": 320,
+    "image": "watch.svg",
+    "category": "Accessories",
+    "condition": "Pre-owned",
+    "source": "Resale site",
+    "details": "38 mm · Steel",
+    "href": "#",
+    "tags": [
+      "steel",
+      "classic",
+      "everyday"
+    ]
+  },
+  {
+    "id": "loafer-01",
+    "title": "Penny Loafer",
+    "price": 180,
+    "image": "loafer.svg",
+    "category": "Shoes",
+    "condition": "Pre-owned",
+    "source": "Resale site",
+    "details": "EU 38 · Calf leather",
+    "href": "#",
+    "tags": [
+      "leather",
+      "black",
+      "classic"
+    ]
+  },
+  {
+    "id": "sweater-01",
+    "title": "Cashmere Crewneck",
+    "price": 135,
+    "image": "sweater.svg",
+    "category": "Knitwear",
+    "condition": "Pre-owned",
+    "source": "Resale site",
+    "details": "Size S · 100% cashmere",
+    "href": "#",
+    "tags": [
+      "cashmere",
+      "white",
+      "minimal"
+    ]
+  },
+  {
+    "id": "sunglasses-01",
+    "title": "Round Sunglasses",
+    "price": 95,
+    "image": "sunglasses.svg",
+    "category": "Accessories",
+    "condition": "Vintage",
+    "source": "Vintage shop",
+    "details": "Acetate · 1990s",
+    "href": "#",
+    "tags": [
+      "acetate",
+      "black",
+      "statement"
+    ]
+  },
+  {
+    "id": "fragrance-01",
+    "title": "Eau de Parfum",
+    "price": 120,
+    "image": "fragrance.svg",
+    "category": "Beauty",
+    "condition": "New",
+    "source": "Retailer",
+    "details": "50 ml",
+    "href": "#",
+    "tags": [
+      "gift",
+      "white",
+      "minimal"
+    ]
+  },
+  {
+    "id": "boot-01",
+    "title": "Chelsea Boot",
+    "price": 210,
+    "image": "boot.svg",
+    "category": "Shoes",
+    "condition": "Pre-owned",
+    "source": "Resale site",
+    "details": "EU 39 · Suede",
+    "href": "#",
+    "tags": [
+      "suede",
+      "black",
+      "classic"
+    ]
+  },
+  {
+    "id": "scarf-01",
+    "title": "Silk Square Scarf",
+    "price": 85,
+    "image": "scarf.svg",
+    "category": "Accessories",
+    "condition": "Vintage",
+    "source": "Vintage shop",
+    "details": "90 × 90 cm · Silk",
+    "href": "#",
+    "tags": [
+      "silk",
+      "white",
+      "statement"
+    ]
+  },
+  {
+    "id": "crossbody-01",
+    "title": "Leather Crossbody",
+    "price": 150,
+    "image": "crossbody.svg",
+    "category": "Bags",
+    "condition": "Vintage",
+    "source": "Vintage shop",
+    "details": "Box leather · 1980s",
+    "href": "#",
+    "tags": [
+      "leather",
+      "black",
+      "classic"
+    ]
+  },
+  {
+    "id": "hoops-01",
+    "title": "Sterling Hoops",
+    "price": 60,
+    "image": "hoops.svg",
+    "category": "Accessories",
+    "condition": "Pre-owned",
+    "source": "Resale site",
+    "details": "Sterling silver",
+    "href": "#",
+    "tags": [
+      "silver",
+      "minimal",
+      "everyday"
+    ]
+  }
+]
