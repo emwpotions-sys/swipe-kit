@@ -14,7 +14,8 @@ export const productsDeck: DeckConfig<Product> = {
   source: jsonSource<ProductRecord, Product>(`${SEED}items.json`, (r) => ({
     ...r,
     // Relative image paths resolve against /seed/images/.
-    image: /^(https?:)?\/\//.test(r.image) || r.image.startsWith('/') ? r.image : `${SEED}images/${r.image}`,
+    image:
+      !r.image || /^(https?:)?\/\//.test(r.image) || r.image.startsWith('/') ? r.image : `${SEED}images/${r.image}`,
     facets: { category: r.category, condition: r.condition },
     tags: r.tags ?? [],
   })),
@@ -34,7 +35,7 @@ export const productsDeck: DeckConfig<Product> = {
   },
 
   facets: [
-    { key: 'category', label: 'Category', options: ['Shoes', 'Bags', 'Accessories', 'Knitwear', 'Beauty'] },
+    { key: 'category', label: 'Category', options: ['Dresses', 'Shoes', 'Bags', 'Accessories', 'Knitwear', 'Beauty'] },
     { key: 'condition', label: 'Condition', options: ['Pre-owned', 'Vintage', 'New'] },
   ],
 
@@ -45,9 +46,9 @@ export const productsDeck: DeckConfig<Product> = {
 
   summarize: (p) => ({
     title: p.title,
-    subtitle: [p.condition, p.source].filter(Boolean).join(' · '),
+    subtitle: [p.brand, p.condition, p.source].filter(Boolean).join(' · '),
     image: p.image,
     href: p.href,
-    aside: formatPrice(p),
+    aside: formatPrice(p) || undefined,
   }),
 }

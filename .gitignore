@@ -22,3 +22,6 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Retailer photos used for local testing. Kept off GitHub.
+public/seed/images/local/

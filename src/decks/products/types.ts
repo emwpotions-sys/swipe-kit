@@ -4,9 +4,12 @@ import type { SwipeItem } from '../../swipe'
 export interface ProductRecord {
   id: string
   title: string
-  price: number
+  brand?: string
+  /** Omit when unknown; the card just hides the price. */
+  price?: number
   currency?: string
-  image: string
+  /** File name in seed/images/, or a full https:// URL. Omit to show a typographic card. */
+  image?: string
   category: string
   condition: 'Pre-owned' | 'Vintage' | 'New'
   source: string
@@ -17,9 +20,13 @@ export interface ProductRecord {
 
 export interface Product extends SwipeItem, ProductRecord {}
 
+/** "$180", "$267.99", or "" when there is no price. */
 export const formatPrice = (p: Pick<Product, 'price' | 'currency'>) =>
-  new Intl.NumberFormat('en-US', {
-    style: 'currency',
-    currency: p.currency ?? 'USD',
-    maximumFractionDigits: 0,
-  }).format(p.price)
+  p.price === undefined
+    ? ''
+    : new Intl.NumberFormat('en-US', {
+        style: 'currency',
+        currency: p.currency ?? 'USD',
+        minimumFractionDigits: Number.isInteger(p.price) ? 0 : 2,
+        maximumFractionDigits: 2,
+      }).format(p.price)

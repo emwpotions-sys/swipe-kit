@@ -18,6 +18,22 @@
   display: block;
 }
 
+.pc__placeholder {
+  position: absolute;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  padding: 32px;
+  text-align: center;
+  font-size: 34px;
+  font-weight: 600;
+  letter-spacing: -0.035em;
+  line-height: 1;
+  color: var(--sk-fg);
+  background: linear-gradient(180deg, #f4f4f4, #e6e6e6);
+  overflow-wrap: anywhere;
+}
+
 .pc__tag {
   position: absolute;
   left: 16px;
@@ -28,6 +44,7 @@
   place-items: center;
   border-radius: 999px;
   background: var(--sk-bg);
+  box-shadow: 0 0 0 1px var(--sk-line); /* stays visible on white product photos */
   font-size: 10px;
   font-weight: 600;
   letter-spacing: 0.14em;
@@ -40,6 +57,14 @@
   display: flex;
   flex-direction: column;
   gap: 4px;
+}
+
+.pc__brand {
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--sk-muted);
 }
 
 .pc__row {

@@ -1,5 +1,98 @@
 [
   {
+    "id": "thredup-235536908",
+    "brand": "Diane von Furstenberg",
+    "title": "Cocktail Dress",
+    "price": 267.99,
+    "image": "https://cf-assets-thredup.thredup.com/assets/961063445/xlarge.jpg",
+    "category": "Dresses",
+    "condition": "Pre-owned",
+    "source": "thredUP",
+    "details": "Size 4 · Very good",
+    "href": "https://www.thredup.com/product/women-diane-von-furstenberg-blue-cocktail-dress/235536908",
+    "tags": [
+      "dress",
+      "blue",
+      "designer"
+    ]
+  },
+  {
+    "id": "trr-vllw1",
+    "brand": "Missoni",
+    "title": "Patterned Mini Dress",
+    "price": 168,
+    "image": "local/missoni-vllw1.jpg",
+    "category": "Dresses",
+    "condition": "Pre-owned",
+    "source": "The RealReal",
+    "details": "Size M",
+    "href": "https://www.therealreal.com/products/women/clothing/dresses/missoni-patterned-mini-dress-vllw1",
+    "tags": [
+      "dress",
+      "mini",
+      "pattern",
+      "designer"
+    ]
+  },
+  {
+    "id": "trr-uq6sg",
+    "brand": "KAUFMANFRANCO",
+    "title": "Silk Mini Dress",
+    "price": 70,
+    "image": "local/kaufmanfranco-uq6sg.jpg",
+    "category": "Dresses",
+    "condition": "Pre-owned",
+    "source": "The RealReal",
+    "details": "Size XXS",
+    "href": "https://www.therealreal.com/products/women/clothing/dresses/kaufmanfranco-silk-mini-dress-uq6sg",
+    "tags": [
+      "dress",
+      "mini",
+      "silk",
+      "sequin",
+      "animal-print",
+      "designer"
+    ]
+  },
+  {
+    "id": "trr-v4cxb",
+    "brand": "Tibi",
+    "title": "Faux Fur Feather Trim Mules",
+    "price": 112,
+    "image": "local/tibi-v4cxb.jpg",
+    "category": "Shoes",
+    "condition": "Pre-owned",
+    "source": "The RealReal",
+    "details": "Size 5",
+    "href": "https://www.therealreal.com/products/women/shoes/pumps/tibi-faux-fur-feather-trim-mules-v4cxb",
+    "tags": [
+      "shoes",
+      "mules",
+      "red",
+      "statement",
+      "designer"
+    ]
+  },
+  {
+    "id": "trr-wiq1a",
+    "brand": "Ralph Lauren",
+    "title": "Leather Waist Belt",
+    "price": 189,
+    "image": "local/ralph-lauren-wiq1a.jpg",
+    "category": "Accessories",
+    "condition": "Pre-owned",
+    "source": "The RealReal",
+    "details": "Size M",
+    "href": "https://www.therealreal.com/products/women/accessories/belts/ralph-lauren-leather-waist-belt-wiq1a",
+    "tags": [
+      "belt",
+      "leather",
+      "brown",
+      "statement",
+      "designer"
+    ]
+  },
+  {
     "id": "tote-01",
     "title": "Structured Tote",
     "price": 240,

@@ -53,7 +53,9 @@ public/seed/
 | Field | Notes |
 | --- | --- |
 | `id` | Unique and stable. Saved progress is keyed on it. |
-| `image` | A file name in `images/`, or a full `https://…` URL. |
+| `brand` | Optional. Shown above the title. |
+| `price` | Optional. Hidden when missing; cents are shown when present. |
+| `image` | A file name in `images/`, or a full `https://…` URL. Optional: without one, or if a link breaks, the card shows the brand name instead. |
 | `category`, `condition` | Become the filters. `condition` is `Pre-owned`, `Vintage` or `New`. |
 | `source` | Where the item comes from, shown on the card. |
 | `href` | Where **Open** (swipe up) and **View** go. Use `#` for no link. |
@@ -61,7 +63,7 @@ public/seed/
 
 Save the file and the dev server reloads. You don't need to touch any code.
 
-The images in the repo are monochrome placeholders. Replace or delete them.
+The first five cards are real resale listings (thredUP and The RealReal). The rest use monochrome placeholder images; replace or delete them.
 
 ## Make a deck for anything
 
