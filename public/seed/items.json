@@ -4,7 +4,7 @@
     "brand": "Diane von Furstenberg",
     "title": "Cocktail Dress",
     "price": 267.99,
-    "image": "https://cf-assets-thredup.thredup.com/assets/961063445/xlarge.jpg",
+    "image": "local/dvf-235536908.jpg",
     "category": "Dresses",
     "condition": "Pre-owned",
     "source": "thredUP",
@@ -13,6 +13,8 @@
     "tags": [
       "dress",
       "blue",
+      "floral",
+      "sheer",
       "designer"
     ]
   },
